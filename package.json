@@ -1,9 +1,7 @@
 {
-  "name": "react-startpack",
+  "name": "meteo-widget",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:andela-jwarugu/react-startpack.git",
-  "author": "andela-jwarugu <joy.warugu@andela.com>",
   "scripts": {
     "start": "webpack-dev-server --content-base src --inline --hot"
   },
