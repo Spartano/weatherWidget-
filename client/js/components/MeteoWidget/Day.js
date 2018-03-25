@@ -1,31 +1,32 @@
-import React from 'react';
-import inject from 'react-jss';
-import classNames from 'classnames';
+import React from "react";
+import inject from "react-jss";
+import classNames from "classnames";
 
 const style = {
   footerDay: {
-    flex: '1',
-    position: 'relative',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: '#1799b0'
+    flex: "1",
+    position: "relative",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "#1799b0",
+    cursor: "pointer"
   },
   footerDayText: {
     zIndex: 2
   },
   footerDayBorderRight: {
-    borderRight: '1.5px solid #48c3d9'
+    borderRight: "1.5px solid #48c3d9"
   },
   footerDayBorderLeft: {
-    borderLeft: '1.5px solid #48c3d9'
+    borderLeft: "1.5px solid #48c3d9"
   },
   currentDay: {
-    backgroundColor: '#48c3d9',
-    height: '36px',
+    backgroundColor: "#48c3d9",
+    height: "36px",
 
-    position: 'absolute',
-    width: '39px',
+    position: "absolute",
+    width: "39px",
     zIndex: 1
   }
 };

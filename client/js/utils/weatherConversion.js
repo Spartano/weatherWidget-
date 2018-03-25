@@ -1,3 +1,3 @@
 export const convertToCelsius = fahrenheit => {
-  return (parseInt(fahrenheit) - 32) * 5 / 9;
+  return Math.round((parseInt(fahrenheit) - 32) * 5 / 9);
 };

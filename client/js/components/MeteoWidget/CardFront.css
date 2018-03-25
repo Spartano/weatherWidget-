@@ -1,0 +1,60 @@
+.headerLeftIcon {
+  position: absolute;
+  top: 22px;
+  left: 18px;
+  font-size: 20px;
+}
+
+.headerLeftTextCity {
+  position: absolute;
+  top: 22px;
+  left: 36px;
+  font-size: 20.7px;
+  font-weight: 400;
+}
+.headerLeftTextAtm {
+  position: absolute;
+  top: 46px;
+  left: 36px;
+  font-size: 12.66px;
+  font-weight: 400;
+  text-transform: lowercase;
+}
+.headerLeftTextWind {
+  position: absolute;
+  top: 62px;
+  left: 36px;
+  font-size: 12.66px;
+  font-weight: 400;
+  text-transform: lowercase;
+}
+.headerRightTextBig {
+  position: absolute;
+  top: 22px;
+  right: 18px;
+  font-size: 38.04px;
+  font-weight: 700;
+}
+
+.bodyIcon {
+  position: absolute;
+  top: 112px;
+  font-size: 96px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.footerUmidity {
+  position: absolute;
+  top: 260px;
+  left: 0;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 12.66px;
+  letter-spacing: -0.5px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+}
