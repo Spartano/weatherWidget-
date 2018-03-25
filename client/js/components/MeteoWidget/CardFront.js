@@ -54,7 +54,8 @@ class CardFront extends React.Component {
   }
 
   render() {
-    let { classes } = this.props;
+    let { coords } = this.props;
+
     let {
       currentDay,
       umidita,
@@ -67,6 +68,12 @@ class CardFront extends React.Component {
       velocitaVento
     } = this.state;
 
+    if (!citta)
+      return (
+        <div className={"loading"}>
+          Loading &nbsp; <i class="fas fa-spinner fa-spin" />
+        </div>
+      );
     return (
       <div className="card-side side-front">
         <div className={"headerLeftIcon"}>
